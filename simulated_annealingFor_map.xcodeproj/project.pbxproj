@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2E4900720EF0B6500F1DAB4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E4900620EF0B6500F1DAB4 /* main.cpp */; };
+		A2E4900F20EF0B9B00F1DAB4 /* Simulated_Annealing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E4900D20EF0B9B00F1DAB4 /* Simulated_Annealing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A2E4900320EF0B6500F1DAB4 /* simulated_annealingFor_map */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = simulated_annealingFor_map; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E4900620EF0B6500F1DAB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2E4900D20EF0B9B00F1DAB4 /* Simulated_Annealing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Simulated_Annealing.cpp; sourceTree = "<group>"; };
+		A2E4900E20EF0B9B00F1DAB4 /* Simulated_Annealing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulated_Annealing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		A2E4900520EF0B6500F1DAB4 /* simulated_annealingFor_map */ = {
 			isa = PBXGroup;
 			children = (
+				A2E4900D20EF0B9B00F1DAB4 /* Simulated_Annealing.cpp */,
+				A2E4900E20EF0B9B00F1DAB4 /* Simulated_Annealing.h */,
 				A2E4900620EF0B6500F1DAB4 /* main.cpp */,
 			);
 			path = simulated_annealingFor_map;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E4900F20EF0B9B00F1DAB4 /* Simulated_Annealing.cpp in Sources */,
 				A2E4900720EF0B6500F1DAB4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
